@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js"></script>
+        <title>Calculator</title>
+                
+    </head>
+    <body class="body">
+        <div class="calcu" id="calcu">
+            <p class="name">Calculator</p>
+            <div class="display">
+                <input type="text" id="result">
+            </div>
+            <div class="workSpace">
+                <input type="button" value="AC" id="ac" class="ac" onclick="clr()" onkeydown="myFunction(event)">
+                <input type="button" value="DEL" class="del" onclick="del()" >
+                <input type="button" value="7" class="seven" onclick="dis('7')" onkeydown="myFunction(event)">
+                <input type="button" value="8" class="eight" onclick="dis('8')" onkeydown="myFunction(event)">
+                <input type="button" value="9" class="nine" onclick="dis('9')" onkeydown="myFunction(event)">
+                <input type="button" value="/" class="divid" onclick="dis('/')" onkeydown="myFunction(event)">
+                <input type="button" value="4" class="four" onclick="dis('4')" onkeydown="myFunction(event)">
+                <input type="button" value="5" class="five" onclick="dis('5')" onkeydown="myFunction(event)">
+                <input type="button" value="6" class="six" onclick="dis('6')" onkeydown="myFunction(event)">
+                <input type="button" value="*" class="mult" onclick="dis('*')" onkeydown="myFunction(event)">
+                <input type="button" value="1" class="one" onclick="dis('1')" onkeydown="myFunction(event)">
+                <input type="button" value="2" class="two" onclick="dis('2')" onkeydown="myFunction(event)">
+                <input type="button" value="3" class="three" onclick="dis('3')" onkeydown="myFunction(event)">
+                <input type="button" value="+" class="plus" onclick="dis('+')" onkeydown="myFunction(event)">
+                <input type="button" value="0" class="zero" onclick="dis('0')" onkeydown="myFunction(event)">
+                <input type="button" value="=" class="equal" onclick="solve()" onkeydown="myFunction(event)">
+                <input type="button" value="-" class="min" onclick="dis('-')" onkeydown="myFunction(event)">
+            </div>
+        </div>
+    </body>
+</html>
