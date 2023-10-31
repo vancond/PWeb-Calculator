@@ -1,4 +1,6 @@
-
+.body{
+    background-color: rgba(91, 86, 86, 0.685);
+}
 .name{
     color: white;
     text-align: center;
